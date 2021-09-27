@@ -1,0 +1,10 @@
+Big world:
+syntax parser - read code and check grammar is valid and transalte to computer instraction
+lexical environment - where something sits physically in the code you write,  (where written and what surrounds it)
+execution context - a wrapper to help manage the code that is running. there are lots of lexical environments, Which one is currently running is managed via execution contexts.
+name/value pair - a name which maps to a unique value, the name may be defined more than once, but only can have one value in any given context
+address = '100 Main St.'
+object - a collection of name/value pairs name : {name : {name : 'janusz'}} -> name.name.name
+global execution context - this = Global Object(window)
+global - not inside a function
+synchronous - one at a time, js is synchronous
